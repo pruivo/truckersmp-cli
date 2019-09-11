@@ -29,7 +29,7 @@ int
 main(int argc, char **argv)
 {
 	int i, len;
-	const char opts[] = "-nointro -64bit";
+	const char opts[] = "-nointro -64bit -rdevice gl";
 	char cmd[BUF_SIZE];
 	char dll[BUF_SIZE];
 	char *exepath, *dllpath, *steamid;
